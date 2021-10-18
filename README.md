@@ -1,7 +1,5 @@
 # Test Automation Ramp-Up Task
 
----
-
 ## The task
 
 1. Create a test plan (test suite) containing 5 manual test cases (tests) for testing a new account registration at http://automationpractice.com (a brand-new account creation should be covered)
@@ -39,7 +37,9 @@ https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.
 
 ## How to use
 Run tests via Maven: `mvn test`\
-Or run [RegistrationSuite.java](src/main/java/com/github/mackzwellz/tests/RegistrationSuite.java) with any JUint5-compatible runner.
+Or run [RegistrationSuite.java](src/main/java/com/github/mackzwellz/tests/RegistrationSuite.java) with any JUint5-compatible runner.\
+You can also use run configurations supplied in this repo.
+
 There are 4 tests that should pass.\
 There are 2 tests from [KatalonRecorderSuite.java](src/main/java/com/github/mackzwellz/tests/KatalonRecorderSuite.java) and 2 parametrized runs of 1 test from 
 [RegistrationSuite.java](src/main/java/com/github/mackzwellz/tests/RegistrationSuite.java).\
