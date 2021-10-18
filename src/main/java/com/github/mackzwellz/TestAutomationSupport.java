@@ -1,6 +1,7 @@
 package com.github.mackzwellz;
 
 import com.mifmif.common.regex.Generex;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,11 +16,12 @@ public class TestAutomationSupport {
 
     @BeforeAll
     public static void driverSetup() {
-        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
+        //System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
     }
 
     public static String generateUserName() {
-        return "ln" + new Generex("[A-z]{10}").random();
+        return "ln" + new Generex("[A-Za-z]{10}").random();
     }
 
     public static String generateUserEmail() {
