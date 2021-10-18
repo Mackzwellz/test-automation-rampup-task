@@ -1,0 +1,391 @@
+/*Webpage elements retrieved from: http://automationpractice.com/index.php?controller=authentication&back=my-account at Sun Oct 17 2021 22:56:31 GMT+0300 (Москва, стандартное время)*/
+import org.openqa.selenium.*;
+
+public class SampleTestClass { 
+
+   public PageDriver page;
+
+   public SampleTestClass(PageDriver page) {
+			this.page = page;
+	  }
+/*
+SubmitsearchButton
+*/
+   public void clickSubmitsearchButton(){
+        page.clickElementByName("submit_search");
+   }
+
+
+/*
+SubmitCreateButton
+*/
+   public void clickSubmitCreateButton(){
+        page.clickElementByName("SubmitCreate");
+   }
+
+
+/*
+SubmitLoginButton
+*/
+   public void clickSubmitLoginButton(){
+        page.clickElementByName("SubmitLogin");
+   }
+
+
+/*
+SubmitNewsletterButton
+*/
+   public void clickSubmitNewsletterButton(){
+        page.clickElementByName("submitNewsletter");
+   }
+
+
+/*
+ControllerInput
+*/
+   public String getControllerInput(){
+         page.getFieldValueByName("controller");
+   }
+   public void setControllerInput(String value){
+         page.typeValueInFieldByName("controller" , value);
+   }
+
+
+/*
+OrderbyInput
+*/
+   public String getOrderbyInput(){
+         page.getFieldValueByName("orderby");
+   }
+   public void setOrderbyInput(String value){
+         page.typeValueInFieldByName("orderby" , value);
+   }
+
+
+/*
+OrderwayInput
+*/
+   public String getOrderwayInput(){
+         page.getFieldValueByName("orderway");
+   }
+   public void setOrderwayInput(String value){
+         page.typeValueInFieldByName("orderway" , value);
+   }
+
+
+/*
+SearchqueryInput
+*/
+   public String getSearchqueryInput(){
+         page.getFieldValueByName("search_query");
+   }
+   public void setSearchqueryInput(String value){
+         page.typeValueInFieldByName("search_query" , value);
+   }
+
+
+/*
+EmailcreateInput
+*/
+   public String getEmailcreateInput(){
+         page.getFieldValueByName("email_create");
+   }
+   public void setEmailcreateInput(String value){
+         page.typeValueInFieldByName("email_create" , value);
+   }
+
+
+/*
+BackInput
+*/
+   public String getBackInput(){
+         page.getFieldValueByName("back");
+   }
+   public void setBackInput(String value){
+         page.typeValueInFieldByName("back" , value);
+   }
+
+
+/*
+SubmitCreateInput
+*/
+   public String getSubmitCreateInput(){
+         page.getFieldValueByName("SubmitCreate");
+   }
+   public void setSubmitCreateInput(String value){
+         page.typeValueInFieldByName("SubmitCreate" , value);
+   }
+
+
+/*
+EmailInput
+*/
+   public String getEmailInput(){
+         page.getFieldValueByName("email");
+   }
+   public void setEmailInput(String value){
+         page.typeValueInFieldByName("email" , value);
+   }
+
+
+/*
+PasswdInput
+*/
+   public String getPasswdInput(){
+         page.getFieldValueByName("passwd");
+   }
+   public void setPasswdInput(String value){
+         page.typeValueInFieldByName("passwd" , value);
+   }
+
+
+/*
+BackInput1
+*/
+   public String getBackInput1(){
+         page.getFieldValueByName("back");
+   }
+   public void setBackInput1(String value){
+         page.typeValueInFieldByName("back" , value);
+   }
+
+
+/*
+EmailInput1
+*/
+   public String getEmailInput1(){
+         page.getFieldValueByName("email");
+   }
+   public void setEmailInput1(String value){
+         page.typeValueInFieldByName("email" , value);
+   }
+
+
+/*
+ActionInput
+*/
+   public String getActionInput(){
+         page.getFieldValueByName("action");
+   }
+   public void setActionInput(String value){
+         page.typeValueInFieldByName("action" , value);
+   }
+
+
+/*
+<link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico?1461205423">
+*/
+   public void clickLink(){
+        page.clickElementByXpath("/html/head/link");
+   }
+
+
+/*
+<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico?1461205423">
+*/
+   public void clickLink1(){
+        page.clickElementByXpath("/html/head/link[2]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/global.css" type="text/css" media="all">
+*/
+   public void clickLink2(){
+        page.clickElementByXpath("/html/head/link[3]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/autoload/highdpi.css" type="text/css" media="all">
+*/
+   public void clickLink3(){
+        page.clickElementByXpath("/html/head/link[4]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/autoload/responsive-tables.css" type="text/css" media="all">
+*/
+   public void clickLink4(){
+        page.clickElementByXpath("/html/head/link[5]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/autoload/uniform.default.css" type="text/css" media="all">
+*/
+   public void clickLink5(){
+        page.clickElementByXpath("/html/head/link[6]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all">
+*/
+   public void clickLink6(){
+        page.clickElementByXpath("/html/head/link[7]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/authentication.css" type="text/css" media="all">
+*/
+   public void clickLink7(){
+        page.clickElementByXpath("/html/head/link[8]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css" type="text/css" media="all">
+*/
+   public void clickLink8(){
+        page.clickElementByXpath("/html/head/link[9]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcart/blockcart.css" type="text/css" media="all">
+*/
+   public void clickLink9(){
+        page.clickElementByXpath("/html/head/link[10]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css" type="text/css" media="all">
+*/
+   public void clickLink10(){
+        page.clickElementByXpath("/html/head/link[11]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all">
+*/
+   public void clickLink11(){
+        page.clickElementByXpath("/html/head/link[12]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all">
+*/
+   public void clickLink12(){
+        page.clickElementByXpath("/html/head/link[13]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css" type="text/css" media="all">
+*/
+   public void clickLink13(){
+        page.clickElementByXpath("/html/head/link[14]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all">
+*/
+   public void clickLink14(){
+        page.clickElementByXpath("/html/head/link[15]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all">
+*/
+   public void clickLink15(){
+        page.clickElementByXpath("/html/head/link[16]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/product_list.css" type="text/css" media="all">
+*/
+   public void clickLink16(){
+        page.clickElementByXpath("/html/head/link[17]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocksearch/blocksearch.css" type="text/css" media="all">
+*/
+   public void clickLink17(){
+        page.clickElementByXpath("/html/head/link[18]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocktags/blocktags.css" type="text/css" media="all">
+*/
+   public void clickLink18(){
+        page.clickElementByXpath("/html/head/link[19]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all">
+*/
+   public void clickLink19(){
+        page.clickElementByXpath("/html/head/link[20]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockviewed/blockviewed.css" type="text/css" media="all">
+*/
+   public void clickLink20(){
+        page.clickElementByXpath("/html/head/link[21]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/modules/themeconfigurator/css/hooks.css" type="text/css" media="all">
+*/
+   public void clickLink21(){
+        page.clickElementByXpath("/html/head/link[22]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all">
+*/
+   public void clickLink22(){
+        page.clickElementByXpath("/html/head/link[23]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/productcomments/productcomments.css" type="text/css" media="all">
+*/
+   public void clickLink23(){
+        page.clickElementByXpath("/html/head/link[24]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css" type="text/css" media="all">
+*/
+   public void clickLink24(){
+        page.clickElementByXpath("/html/head/link[25]");
+   }
+
+
+/*
+<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css" type="text/css" media="all">
+*/
+   public void clickLink25(){
+        page.clickElementByXpath("/html/head/link[26]");
+   }
+
+
+/*
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all">
+*/
+   public void clickLink26(){
+        page.clickElementByXpath("/html/head/link[27]");
+   }
+
+
+}
