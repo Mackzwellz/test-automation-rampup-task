@@ -16,31 +16,38 @@
 
 https://www.swtestacademy.com/selenium-webdriver-tutorial-java-testng/
 
-https://www.selenium.dev/documentation/guidelines/page_object_models/
-https://www.swtestacademy.com/page-object-model-java/
-http://internetka.in.ua/selenium-page-object/ (RU)\
-https://kreisfahrer.gitbooks.io/selenium-webdriver/content/page_object_pattern_arhitektura_testovogo_proekta/ispolzovanie_patterna_page_object.html (RU)
+https://www.selenium.dev/documentation/guidelines/page_object_models/  
+https://www.swtestacademy.com/page-object-model-java/  
+http://internetka.in.ua/selenium-page-object/ (RU)  
+https://kreisfahrer.gitbooks.io/selenium-webdriver/content/page_object_pattern_arhitektura_testovogo_proekta/ispolzovanie_patterna_page_object.html (
+RU)
 
 https://medium.com/@kshitishirke/which-locator-is-faster-in-identifying-elements-in-selenium-5aeb3f943f5d
 
-https://www.swtestacademy.com/selenium-wait/
-https://www.swtestacademy.com/selenium-actions/
+https://www.swtestacademy.com/selenium-wait/  
+https://www.swtestacademy.com/selenium-actions/  
 https://stackoverflow.com/questions/35127108/how-to-set-value-to-input-web-element-using-selenium/35127217
 
 https://mkyong.com/junit5/junit-5-parameterized-tests/
 
 https://stackoverflow.com/questions/1459656/how-to-get-the-current-time-in-yyyy-mm-dd-hhmisec-millisecond-format-in-java
 
-https://stackoverflow.com/questions/13354531/maven-project-build-directory
-https://stackoverflow.com/questions/49856504/maven-test-classes-custom-directory-layout
+https://stackoverflow.com/questions/13354531/maven-project-build-directory  
+https://stackoverflow.com/questions/49856504/maven-test-classes-custom-directory-layout  
 https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html
 
+https://stackoverflow.com/questions/35867102/how-to-work-with-selenium-chrome-driver-in-maven-without-chromedriver-exe
+
 ## How to use
+
 Run tests via Maven: `mvn test`\
-Or run [RegistrationSuite.java](src/main/java/com/github/mackzwellz/tests/RegistrationSuite.java) with any JUint5-compatible runner.\
+Or run [RegistrationSuite.java](src/main/java/com/github/mackzwellz/tests/RegistrationSuite.java) with any
+JUint5-compatible runner.\
 You can also use run configurations supplied in this repo.
 
 There are 4 tests that should pass.\
-There are 2 tests from [KatalonRecorderSuite.java](src/main/java/com/github/mackzwellz/tests/KatalonRecorderSuite.java) and 2 parametrized runs of 1 test from 
+There are 2 tests from [KatalonRecorderSuite.java](src/main/java/com/github/mackzwellz/tests/KatalonRecorderSuite.java)
+and 2 parametrized runs of 1 test from
 [RegistrationSuite.java](src/main/java/com/github/mackzwellz/tests/RegistrationSuite.java).\
-The only test in RegistrationSuite is the same test as the second one in KatalonRecorderSuite, but re-implemented using Page Object pattern.
+The only test in RegistrationSuite is the same test as the second one in KatalonRecorderSuite, but re-implemented using
+Page Object pattern.

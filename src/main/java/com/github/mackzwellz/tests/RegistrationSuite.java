@@ -8,16 +8,17 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
+
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class RegistrationSuite extends KatalonRecorderSuite {
 
     public static Stream<Arguments> userEmailAndLastNameProvider() {
-            return Stream.of(
-                    arguments(userEmail, userLastName),
-                    arguments("asdf1@mail.asdf", "ln")
-            );
-        }
+        return Stream.of(
+                arguments(userEmail, userLastName),
+                arguments("asdf1@mail.asdf", "ln")
+        );
+    }
 
 //    @ParameterizedTest(name = "#{index} - Test with user : {0}")
 //    @MethodSource("userEmailProvider")
